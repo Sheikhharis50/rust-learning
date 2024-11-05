@@ -7,7 +7,7 @@ fn main() {
 
     // generating random integer.
     let secret_number: u32 = rand::thread_rng().gen_range(1..=100);
-    println!("The secret number is: {secret_number}");
+    // println!("The secret number is: {secret_number}");
 
     loop {
         // taking input from user.

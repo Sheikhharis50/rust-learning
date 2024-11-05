@@ -1,4 +1,6 @@
 fn main() {
-    let s = String::from("Haris Zahid");
+    let mut s = String::from("Haris Zahid");
+    println!("Hello, {s}!");
+    s = String::from("SHZ");
     println!("Hello, {s}!");
 }
